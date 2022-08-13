@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "npm run copyfiles && tsc",
-    "copyfiles": "copyfiles \"templates/**/*.txt\" build",
+    "copyfiles": "copyfiles \"/templates/**/*.txt\" build",
     "lint": "eslint . --ext=.ts --fix"
   },
   "devDependencies": {
