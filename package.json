@@ -1,7 +1,7 @@
 {
-  "name": "adonis-rabbit",
+  "name": "adonis-rabbit-frame-max",
   "description": "AdonisJS RabbitMQ provider",
-  "version": "0.0.22-1",
+  "version": "0.1.1",
   "author": "Jota Júnior <jjunior@protonmail.ch>",
   "types": "build/adonis-typings/index.d.ts",
   "main": "build/providers/RabbitProvider.js",
@@ -48,13 +48,13 @@
       "RABBITMQ_PASSWORD": "",
       "RABBITMQ_PORT": ""
     },
-    "types": "adonis-rabbit",
+    "types": "adonis-rabbit-frame-max",
     "providers": [
-      "adonis-rabbit"
+      "adonis-rabbit-frame-max"
     ]
   },
   "np": {
     "message": "Releases v%s"
   },
-  "repository": "https://github.com/jotaajunior/adonis-rabbit.git"
+  "repository": "https://github.com/babalahgrill/adonis-rabbit.git"
 }

@@ -1,19 +1,19 @@
-# adonis-rabbit
+# adonis-rabbit-frame-max
 
-`adonis-rabbit` is a RabbitMQ provider for [Adonis](https://github.com/adonisjs/core).
+`adonis-rabbit-frame-max` is a RabbitMQ provider for [Adonis](https://github.com/adonisjs/core).
 
 ## Getting Started
 
-Instal `adonis-rabbit`:
+Instal `adonis-rabbit-frame-max`:
 
 ```
-yarn add adonis-rabbit
+yarn add adonis-rabbit-frame-max
 ```
 
 Then:
 
 ```
-node ace invoke adonis-rabbit
+node ace invoke adonis-rabbit-frame-max
 ```
 
 This will create `config/rabbit.ts` and add the following fields to your `.env`:
@@ -25,7 +25,7 @@ RABBOTMQ_PASSWORD=
 RABBITMQ_PORT=
 ```
 
-Make sure to set the correct values to the enviroment variables so `adonis-rabbit` can connect.
+Make sure to set the correct values to the enviroment variables so `adonis-rabbit-frame-max` can connect.
 
 ## Basic Usage
 
@@ -40,7 +40,7 @@ Route.get('/', async () => {
   await Rabbit.assertQueue('my_queue')
 
   // Sends a message to the queue
-  await Rabbit.sendToQueue('my_queue', 'This message was sent by adonis-rabbit')
+  await Rabbit.sendToQueue('my_queue', 'This message was sent by adonis-rabbit-frame-max')
 })
 ```
 
@@ -230,7 +230,7 @@ Closes the connection.
 
 ### Message
 
-When consuming messages through [`consumeFrom`](https://github.com/jotaajunior/adonis-rabbit#consumefrom), you'll receive in the callback a Message instance.
+When consuming messages through [`consumeFrom`](https://github.com/babalahgrill/adonis-rabbit.git#consumefrom), you'll receive in the callback a Message instance.
 
 This slightly different from amqplib approach. For example:
 
